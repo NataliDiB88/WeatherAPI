@@ -12,7 +12,7 @@ class City {
 }
 
 class HistoryService {
-  private filePath = '/db/db.json';
+  private filePath = './db/db.json';
 
   // Read method: Reads data from the JSON file
   private async read(): Promise<City[]> {
